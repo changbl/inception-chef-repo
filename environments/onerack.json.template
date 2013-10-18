@@ -11,7 +11,7 @@
     "openvswitch": {
       "hub_name": "${PREFIX}-gateway",
       "sdn_controller_name": "${PREFIX}-controller",
-      "vxlan_bridge_ids": [1, 2, 3],
+      "vxlan_bridge_ids": [1],
       "netmask" : "255.255.255.0",
       "addresses" : {
 	// eth2 address 0.0.0.0 because Nova network handles
